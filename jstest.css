@@ -1,0 +1,151 @@
+*
+{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+body
+{
+    background-color: black;
+    color: white;
+    font-size: 22px;
+}
+.th1
+{
+    color:black;
+   
+    
+    background-color: white;
+    
+   
+    font-size: 22px;
+    padding: 8px;
+}
+.mhead
+{
+   margin-top:100px;
+    text-align: center;
+    padding-bottom:50px;
+    font-size: 65px;
+    border-bottom: 4px solid white;
+}
+.q
+{
+    font-size: 85px;
+    color: black;
+    background-color: white;
+    
+    text-align: center;
+    width:6rem;
+    position:absolute;
+    top:16rem;
+    right:50%;
+    
+
+
+}
+.score{
+    display:flex;
+    
+    gap:20px;
+}
+.s2
+{
+    padding-top: 6px;
+}
+
+.hscore{
+    display:flex;
+    
+    gap:20px;
+}
+.hs2
+{
+    padding-top: 6px;
+}
+
+
+
+
+.thead{
+    
+
+    display :flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    margin: 20px;
+    margin-right: 100px;
+    
+}
+
+.guess
+{
+    font-size: 85px;
+   
+    width:150px;
+    text-align: center;
+    grid-column: 1;
+    grid-row: 1/span 2;
+    
+    
+}
+.check
+{
+    font-size: 35px;
+    width:120px;
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: 15px;
+    background-color: rgb(173, 175, 177);
+   
+
+    
+}
+.check:hover ,.check:visited
+{
+    background-color: white;
+}
+.mid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    justify-content: center;
+    margin-top: 100px; 
+    margin-left: 50px;
+    row-gap: 20px;
+}
+.score{
+    grid-column: 2;
+}
+.hscore{
+    grid-column: 2;
+}
+.reply
+{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+
+.b2
+{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    justify-content: center;
+    position:absolute;
+    top:24.7rem;
+    left:11rem;
+
+
+}
+
+.b
+{
+    width:1.5rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
